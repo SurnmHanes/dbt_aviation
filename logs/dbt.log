@@ -27,3 +27,441 @@ Happy modeling!
 [0m13:24:04.003767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002643365D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002644AEE3740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026436F1B9B0>]}
 [0m13:24:04.004855 [debug] [MainThread]: Flushing usage events
 [0m13:24:04.900192 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:32:07.430207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C86F24D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C83A9D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C872001A0>]}
+
+
+============================== 13:32:07.442316 | 3200ca17-b902-41f9-91f4-82198102e075 ==============================
+[0m13:32:07.442316 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:32:07.443469 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt compile', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:32:07.444732 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:32:07.445727 [debug] [MainThread]: Command `dbt compile` failed at 13:32:07.445727 after 0.20 seconds
+[0m13:32:07.446760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C87AF12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C86FE2D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C874FD430>]}
+[0m13:32:07.446760 [debug] [MainThread]: Flushing usage events
+[0m13:32:08.277798 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:32:48.521551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA1715A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA5724AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA5BE3710>]}
+
+
+============================== 13:32:48.527382 | 3a3bf4fb-2d04-42f1-a4d8-a17aecab0da2 ==============================
+[0m13:32:48.527382 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:32:48.528446 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:32:48.529811 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:32:48.530827 [debug] [MainThread]: Command `dbt run` failed at 13:32:48.530827 after 0.19 seconds
+[0m13:32:48.530827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA57C8470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA562A4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA5724AA0>]}
+[0m13:32:48.531865 [debug] [MainThread]: Flushing usage events
+[0m13:32:49.437668 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:33:36.216305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001677D20EE40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167000AA120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167000AB7A0>]}
+
+
+============================== 13:33:36.221341 | baf23d71-9b24-45b4-9825-51ed4ee53f41 ==============================
+[0m13:33:36.221341 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:33:36.222307 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt compile', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:33:40.498117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016714077800>]}
+[0m13:33:40.567461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167137D6360>]}
+[0m13:33:40.568425 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:33:41.499574 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:33:41.500603 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:33:41.501571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016715298AD0>]}
+[0m13:33:45.044425 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_aviation.example
+[0m13:33:45.051425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016715300650>]}
+[0m13:33:45.225694 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:33:45.255104 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:33:45.291162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167156CF980>]}
+[0m13:33:45.291162 [info ] [MainThread]: Found 539 macros
+[0m13:33:45.292161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'baf23d71-9b24-45b4-9825-51ed4ee53f41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167156A6BA0>]}
+[0m13:33:45.294157 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:33:45.295024 [debug] [MainThread]: Command end result
+[0m13:33:45.337586 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:33:45.340583 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:33:45.345093 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:33:45.347124 [debug] [MainThread]: Command `dbt compile` succeeded at 13:33:45.347124 after 9.28 seconds
+[0m13:33:45.348338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167156808F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001677D5D8860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001677FA1CB30>]}
+[0m13:33:45.348338 [debug] [MainThread]: Flushing usage events
+[0m13:33:46.180833 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:34:17.521493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FED21D370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FEA3CD550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FED800BC0>]}
+
+
+============================== 13:34:17.530334 | 93c1269d-7ff4-4519-be99-4c3523ffa421 ==============================
+[0m13:34:17.530334 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:34:17.532334 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:34:20.965491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '93c1269d-7ff4-4519-be99-4c3523ffa421', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FEAF640B0>]}
+[0m13:34:21.059394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '93c1269d-7ff4-4519-be99-4c3523ffa421', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F80B941A0>]}
+[0m13:34:21.060397 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:34:21.839196 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:34:21.981485 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:34:21.982485 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:34:21.982485 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:34:21.983522 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_aviation.example
+[0m13:34:21.990422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '93c1269d-7ff4-4519-be99-4c3523ffa421', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F81D90950>]}
+[0m13:34:22.066501 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:34:22.069551 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:34:22.086961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '93c1269d-7ff4-4519-be99-4c3523ffa421', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F831CBB00>]}
+[0m13:34:22.088148 [info ] [MainThread]: Found 539 macros
+[0m13:34:22.089147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93c1269d-7ff4-4519-be99-4c3523ffa421', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F8325E870>]}
+[0m13:34:22.091147 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:34:22.094689 [debug] [MainThread]: Command end result
+[0m13:34:22.136661 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:34:22.139932 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:34:22.144928 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:34:22.145929 [debug] [MainThread]: Command `dbt run` succeeded at 13:34:22.145929 after 4.87 seconds
+[0m13:34:22.146929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FEE30AAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FEDC6A0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FEE326E70>]}
+[0m13:34:22.146929 [debug] [MainThread]: Flushing usage events
+[0m13:34:23.026778 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:47:19.737220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3EE2CED20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3EE6FEC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3EE6FED80>]}
+
+
+============================== 13:47:19.741602 | a923bea0-3ee1-467f-8d61-02739425ddb4 ==============================
+[0m13:47:19.741602 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:47:19.742330 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:47:21.670416 [warn ] [MainThread]: [[33mWARNING[0m][CustomKeyInConfigDeprecation]: Deprecated functionality
+Custom key `dbt_aviation` found in `config` at path `dbt_aviation` in file
+`C:\Users\NeilHanes\OneDrive - MERCURY XRM
+LTD\Desktop\Sandbox\SideProj\dbt_aviation\dbt_project.yml`. Custom config keys
+should move into the `config.meta`.
+[0m13:47:21.671958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3F18B11C0>]}
+[0m13:47:21.839524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D385F91670>]}
+[0m13:47:21.906639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3856CD370>]}
+[0m13:47:21.907706 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:47:22.709049 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:47:22.773377 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m13:47:22.773918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3874FACC0>]}
+[0m13:47:26.024305 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m13:47:26.029648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3873ED250>]}
+[0m13:47:26.082734 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:47:26.104863 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:47:26.119507 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3873E17F0>]}
+[0m13:47:26.120528 [info ] [MainThread]: Found 539 macros
+[0m13:47:26.120528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a923bea0-3ee1-467f-8d61-02739425ddb4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3875741A0>]}
+[0m13:47:26.121554 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:47:26.122779 [debug] [MainThread]: Command end result
+[0m13:47:26.153222 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:47:26.156222 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:47:26.160456 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:47:26.160456 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- CustomKeyInConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m13:47:26.162577 [debug] [MainThread]: Command `dbt run` succeeded at 13:47:26.161513 after 6.61 seconds
+[0m13:47:26.162577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3F0B3E060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3F05E22D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3EE564C80>]}
+[0m13:47:26.162577 [debug] [MainThread]: Flushing usage events
+[0m13:47:26.942030 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:49:14.974148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1B94FD9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1B81DD550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1BAAD5220>]}
+
+
+============================== 13:49:14.979148 | ad7885b6-70ed-4fce-9ddc-a9e4e819a635 ==============================
+[0m13:49:14.979148 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:49:14.980147 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:49:16.817694 [warn ] [MainThread]: [[33mWARNING[0m][CustomKeyInConfigDeprecation]: Deprecated functionality
+Custom key `dbt_aviation` found in `config` at path `dbt_aviation` in file
+`C:\Users\NeilHanes\OneDrive - MERCURY XRM
+LTD\Desktop\Sandbox\SideProj\dbt_aviation\dbt_project.yml`. Custom config keys
+should move into the `config.meta`.
+[0m13:49:16.818692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1BC56CE00>]}
+[0m13:49:16.988383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1CF1BC6B0>]}
+[0m13:49:17.054568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1D0D70E30>]}
+[0m13:49:17.055597 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:49:17.627546 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:49:17.734314 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:49:17.734314 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:49:17.735311 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:49:17.735311 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m13:49:17.740869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1D112CE30>]}
+[0m13:49:17.798329 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:49:17.800487 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:49:17.813124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1D112CC80>]}
+[0m13:49:17.814127 [info ] [MainThread]: Found 539 macros
+[0m13:49:17.814127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ad7885b6-70ed-4fce-9ddc-a9e4e819a635', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1D11DF140>]}
+[0m13:49:17.815148 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:49:17.817643 [debug] [MainThread]: Command end result
+[0m13:49:17.848453 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:49:17.851431 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:49:17.855306 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:49:17.856305 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- CustomKeyInConfigDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m13:49:17.857304 [debug] [MainThread]: Command `dbt run` succeeded at 13:49:17.857304 after 3.03 seconds
+[0m13:49:17.858350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1BBB91550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1BBB900B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1BB17E780>]}
+[0m13:49:17.858350 [debug] [MainThread]: Flushing usage events
+[0m13:49:18.664925 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:52:28.013534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FBC9D940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FC24B530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FC24B560>]}
+
+
+============================== 13:52:28.017566 | a10b9a65-88b4-4a72-87d7-6b1e39ac34c2 ==============================
+[0m13:52:28.017566 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:52:28.018580 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:52:28.185626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a10b9a65-88b4-4a72-87d7-6b1e39ac34c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FDB8F7A0>]}
+[0m13:52:28.217258 [debug] [MainThread]: Command `dbt clean` succeeded at 13:52:28.217258 after 0.37 seconds
+[0m13:52:28.218522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FBD2BA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FBD2A210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150FDB8F7A0>]}
+[0m13:52:28.218522 [debug] [MainThread]: Flushing usage events
+[0m13:52:29.024317 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:52:41.250673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A719A0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A13A8110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A784E8A0>]}
+
+
+============================== 13:52:41.254600 | c34163b1-ed06-4071-b874-8e6e7429de51 ==============================
+[0m13:52:41.254600 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:52:41.255620 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt ls --resource-type model', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:52:43.228672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A7407EC0>]}
+[0m13:52:43.292931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A797DDC0>]}
+[0m13:52:43.293933 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:52:43.840325 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:52:43.841292 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:52:43.841292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A797FA40>]}
+[0m13:52:44.733246 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_aviation
+[0m13:52:44.740279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231BC630560>]}
+[0m13:52:44.903474 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:52:44.906528 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:52:44.935668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231BC6A5FA0>]}
+[0m13:52:44.937037 [info ] [MainThread]: Found 539 macros
+[0m13:52:44.937037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c34163b1-ed06-4071-b874-8e6e7429de51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A4589070>]}
+[0m13:52:44.938611 [warn ] [MainThread]: No nodes selected!
+[0m13:52:44.938611 [debug] [MainThread]: Command `dbt ls` succeeded at 13:52:44.938611 after 3.84 seconds
+[0m13:52:44.940147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231A778D430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231BC3941A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231BACF5B80>]}
+[0m13:52:44.940147 [debug] [MainThread]: Flushing usage events
+[0m13:52:45.754203 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:53:08.732113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002117FA85610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002117B6F8110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002117EAAEF90>]}
+
+
+============================== 13:53:08.736976 | 7605cb02-bcec-4779-8ef2-74de490d8967 ==============================
+[0m13:53:08.736976 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:53:08.737983 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt ls --resource-type model', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:53:10.762528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7605cb02-bcec-4779-8ef2-74de490d8967', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021101415AF0>]}
+[0m13:53:10.828494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7605cb02-bcec-4779-8ef2-74de490d8967', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002117F7CA240>]}
+[0m13:53:10.829495 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:53:11.415660 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:53:11.530783 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:53:11.531784 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:53:11.532783 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:53:11.533783 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_aviation
+[0m13:53:11.539257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7605cb02-bcec-4779-8ef2-74de490d8967', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021116ACBD10>]}
+[0m13:53:11.598842 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:53:11.600927 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:53:11.625749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7605cb02-bcec-4779-8ef2-74de490d8967', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021116BCC500>]}
+[0m13:53:11.627247 [info ] [MainThread]: Found 539 macros
+[0m13:53:11.628245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7605cb02-bcec-4779-8ef2-74de490d8967', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002110187EAB0>]}
+[0m13:53:11.628245 [warn ] [MainThread]: No nodes selected!
+[0m13:53:11.629296 [debug] [MainThread]: Command `dbt ls` succeeded at 13:53:11.629296 after 3.04 seconds
+[0m13:53:11.630334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002117E577740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211166D4770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021101D5C740>]}
+[0m13:53:11.630334 [debug] [MainThread]: Flushing usage events
+[0m13:53:12.447535 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:53:50.585316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002445F638110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024465203980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244653466C0>]}
+
+
+============================== 13:53:50.590485 | 3c044978-15bb-4497-9e57-7ac903944189 ==============================
+[0m13:53:50.590485 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:53:50.590485 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ls --resource-type model', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:53:52.615824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3c044978-15bb-4497-9e57-7ac903944189', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002447A565D30>]}
+[0m13:53:52.681334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3c044978-15bb-4497-9e57-7ac903944189', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024465C4CAA0>]}
+[0m13:53:52.682335 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:53:53.273722 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:53:53.398866 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m13:53:53.398866 [debug] [MainThread]: Partial parsing: added file: dbt_aviation://models\sources.yml
+[0m13:53:53.399866 [debug] [MainThread]: Partial parsing: added file: dbt_aviation://models\dbt_aviation\aviation_model.sql
+[0m13:53:53.922908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3c044978-15bb-4497-9e57-7ac903944189', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002447AA7B020>]}
+[0m13:53:54.006689 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:53:54.009029 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:53:54.037887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3c044978-15bb-4497-9e57-7ac903944189', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002447AAEA960>]}
+[0m13:53:54.038931 [info ] [MainThread]: Found 1 model, 1 source, 539 macros
+[0m13:53:54.039934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3c044978-15bb-4497-9e57-7ac903944189', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002446574F320>]}
+[0m13:53:54.040933 [info ] [MainThread]: dbt_aviation.dbt_aviation.aviation_model
+[0m13:53:54.041931 [debug] [MainThread]: Command `dbt ls` succeeded at 13:53:54.041931 after 3.60 seconds
+[0m13:53:54.041931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002446485D820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244652A7440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244651E6090>]}
+[0m13:53:54.042963 [debug] [MainThread]: Flushing usage events
+[0m13:53:54.869558 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:13.780437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018192A42E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819524A390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018195249A60>]}
+
+
+============================== 13:54:13.784411 | 4a7f28bf-b337-4bcb-b46b-bf06063ad0b1 ==============================
+[0m13:54:13.784411 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:54:13.785651 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt compile', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:54:15.819808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AA951DC0>]}
+[0m13:54:15.888448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AA7C5640>]}
+[0m13:54:15.889450 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:54:16.430619 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:54:16.580177 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:54:16.580177 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:54:16.580177 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:54:16.613170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AAA11940>]}
+[0m13:54:16.694340 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:54:16.697307 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:54:16.709187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AAD6E570>]}
+[0m13:54:16.709187 [info ] [MainThread]: Found 1 model, 1 source, 539 macros
+[0m13:54:16.710391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AA78F9B0>]}
+[0m13:54:16.711488 [info ] [MainThread]: 
+[0m13:54:16.712493 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:54:16.712493 [info ] [MainThread]: 
+[0m13:54:16.713472 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:54:16.714707 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_aviation-496812_aviation_data'
+[0m13:54:16.715991 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:18.027344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4a7f28bf-b337-4bcb-b46b-bf06063ad0b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181AAEA4710>]}
+[0m13:54:18.028449 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:54:18.070263 [debug] [Thread-1 (]: Began running node model.dbt_aviation.aviation_model
+[0m13:54:18.071261 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.dbt_aviation.aviation_model'
+[0m13:54:18.071261 [debug] [Thread-1 (]: Began compiling node model.dbt_aviation.aviation_model
+[0m13:54:18.081260 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_aviation.aviation_model"
+[0m13:54:18.083262 [debug] [Thread-1 (]: Began executing node model.dbt_aviation.aviation_model
+[0m13:54:18.084294 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:54:18.119280 [debug] [Thread-1 (]: Finished running node model.dbt_aviation.aviation_model
+[0m13:54:18.120291 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:18.120291 [debug] [MainThread]: Connection 'list_aviation-496812_aviation_data' was properly closed.
+[0m13:54:18.121390 [debug] [MainThread]: Connection 'model.dbt_aviation.aviation_model' was properly closed.
+[0m13:54:18.121390 [debug] [MainThread]: Command end result
+[0m13:54:18.257416 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:54:18.260636 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:54:18.269662 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:54:18.270663 [debug] [MainThread]: Command `dbt compile` succeeded at 13:54:18.270663 after 4.63 seconds
+[0m13:54:18.270663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181956F3620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181946B7620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181960B2990>]}
+[0m13:54:18.271785 [debug] [MainThread]: Flushing usage events
+[0m13:54:19.031884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:36.240918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DEAB8D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DEE42BCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DEE42A1B0>]}
+
+
+============================== 13:54:36.245952 | 555ceaed-96d2-42eb-bc37-7d26fe104027 ==============================
+[0m13:54:36.245952 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:54:36.246921 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:54:36.273740 [info ] [MainThread]: dbt version: 1.11.10
+[0m13:54:36.274248 [info ] [MainThread]: python version: 3.12.0
+[0m13:54:36.274248 [info ] [MainThread]: python path: C:\Users\NeilHanes\AppData\Local\Programs\Python\Python312\python.exe
+[0m13:54:36.275255 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m13:54:38.078461 [info ] [MainThread]: Using profiles dir at C:\Users\NeilHanes\.dbt
+[0m13:54:38.078461 [info ] [MainThread]: Using profiles.yml file at C:\Users\NeilHanes\.dbt\profiles.yml
+[0m13:54:38.079435 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\dbt_project.yml
+[0m13:54:38.079435 [info ] [MainThread]: adapter type: bigquery
+[0m13:54:38.080915 [info ] [MainThread]: adapter version: 1.11.1
+[0m13:54:38.192779 [info ] [MainThread]: Configuration:
+[0m13:54:38.193445 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:54:38.193445 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:54:38.194658 [info ] [MainThread]: Required dependencies:
+[0m13:54:38.194658 [debug] [MainThread]: Executing "git --help"
+[0m13:54:38.251868 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:54:38.252898 [debug] [MainThread]: STDERR: "b''"
+[0m13:54:38.254009 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:54:38.254009 [info ] [MainThread]: Connection:
+[0m13:54:38.254009 [info ] [MainThread]:   method: service-account
+[0m13:54:38.255369 [info ] [MainThread]:   database: aviation-496812
+[0m13:54:38.256368 [info ] [MainThread]:   execution_project: aviation-496812
+[0m13:54:38.256368 [info ] [MainThread]:   schema: aviation_data
+[0m13:54:38.257805 [info ] [MainThread]:   location: EU
+[0m13:54:38.257805 [info ] [MainThread]:   priority: interactive
+[0m13:54:38.258804 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m13:54:38.258804 [info ] [MainThread]:   impersonate_service_account: None
+[0m13:54:38.259802 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m13:54:38.259802 [info ] [MainThread]:   job_retries: 1
+[0m13:54:38.261044 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m13:54:38.262054 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m13:54:38.262054 [info ] [MainThread]:   timeout_seconds: 300
+[0m13:54:38.263051 [info ] [MainThread]:   client_id: None
+[0m13:54:38.263051 [info ] [MainThread]:   token_uri: None
+[0m13:54:38.264051 [info ] [MainThread]:   compute_region: None
+[0m13:54:38.264051 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m13:54:38.265054 [info ] [MainThread]:   gcs_bucket: None
+[0m13:54:38.266053 [info ] [MainThread]:   dataproc_batch: None
+[0m13:54:38.266053 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:54:38.884285 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m13:54:38.884285 [debug] [MainThread]: On debug: select 1 as id
+[0m13:54:38.885285 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:54:42.746037 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=aviation-496812&j=bq:EU:93519be8-26db-49f0-9851-a9a75443ad4f&page=queryresults
+[0m13:54:42.928530 [debug] [MainThread]: SQL status: OK in 0.181 seconds
+[0m13:54:48.335388 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:54:48.336389 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:54:48.338416 [debug] [MainThread]: Command `dbt debug` succeeded at 13:54:48.338416 after 12.24 seconds
+[0m13:54:48.338416 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:54:48.339417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DEB724080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D825627E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D82218530>]}
+[0m13:54:48.340421 [debug] [MainThread]: Flushing usage events
+[0m13:54:49.132650 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:55:00.090431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A3A294C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A33EFA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A02D3560>]}
+
+
+============================== 13:55:00.094635 | d25d7c68-3012-4fdf-8b43-c39f35abbfe6 ==============================
+[0m13:55:00.094635 [info ] [MainThread]: Running with dbt=1.11.10
+[0m13:55:00.095647 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\NeilHanes\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\NeilHanes\\OneDrive - MERCURY XRM LTD\\Desktop\\Sandbox\\SideProj\\dbt_aviation\\logs'}
+[0m13:55:02.210750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B79EFD10>]}
+[0m13:55:02.304509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B6FFE720>]}
+[0m13:55:02.305511 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m13:55:03.069060 [debug] [MainThread]: checksum: 2f247960199844e016e6a527f21364251736722c6212f4b11e96849fe0fc9e96, vars: {}, profile: , target: , version: 1.11.10
+[0m13:55:03.237861 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:55:03.238859 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m13:55:03.238859 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:55:03.281715 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B8C4D7C0>]}
+[0m13:55:03.390608 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:55:03.393689 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:55:03.411088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B8EC59A0>]}
+[0m13:55:03.411088 [info ] [MainThread]: Found 1 model, 1 source, 539 macros
+[0m13:55:03.412135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B8F9E8D0>]}
+[0m13:55:03.413467 [info ] [MainThread]: 
+[0m13:55:03.414508 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:55:03.415485 [info ] [MainThread]: 
+[0m13:55:03.416500 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:55:03.417626 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_aviation-496812'
+[0m13:55:03.418655 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:55:04.646642 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_aviation-496812_aviation_data'
+[0m13:55:04.646642 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:55:05.959395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B7A9BC50>]}
+[0m13:55:05.960362 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:55:06.003814 [debug] [Thread-1 (]: Began running node model.dbt_aviation.aviation_model
+[0m13:55:06.004816 [info ] [Thread-1 (]: 1 of 1 START sql view model aviation_data.aviation_model ....................... [RUN]
+[0m13:55:06.005815 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.dbt_aviation.aviation_model'
+[0m13:55:06.006846 [debug] [Thread-1 (]: Began compiling node model.dbt_aviation.aviation_model
+[0m13:55:06.017947 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_aviation.aviation_model"
+[0m13:55:06.019964 [debug] [Thread-1 (]: Began executing node model.dbt_aviation.aviation_model
+[0m13:55:06.056517 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_aviation.aviation_model"
+[0m13:55:06.059696 [debug] [Thread-1 (]: On model.dbt_aviation.aviation_model: /* {"app": "dbt", "dbt_version": "1.11.10", "profile_name": "dbt_aviation", "target_name": "dev", "node_id": "model.dbt_aviation.aviation_model"} */
+
+
+  create or replace view `aviation-496812`.`aviation_data`.`aviation_model`
+  OPTIONS()
+  as select * from `aviation-496812`.`aviation_data`.`RawData`;
+
+
+[0m13:55:06.059696 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:55:07.489415 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=aviation-496812&j=bq:EU:51dcc41f-af79-427d-b903-3909aeed6cf4&page=queryresults
+[0m13:55:07.882452 [debug] [Thread-1 (]: SQL status: OK in 0.392 seconds
+[0m13:55:07.985014 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd25d7c68-3012-4fdf-8b43-c39f35abbfe6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262B7A21580>]}
+[0m13:55:07.986285 [info ] [Thread-1 (]: 1 of 1 OK created sql view model aviation_data.aviation_model .................. [[32mCREATE VIEW (0 processed)[0m in 1.98s]
+[0m13:55:07.986285 [debug] [Thread-1 (]: Finished running node model.dbt_aviation.aviation_model
+[0m13:55:07.988303 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:55:08.023511 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:55:08.023511 [debug] [MainThread]: Connection 'list_aviation-496812' was properly closed.
+[0m13:55:08.023511 [debug] [MainThread]: Connection 'list_aviation-496812_aviation_data' was properly closed.
+[0m13:55:08.024548 [debug] [MainThread]: Connection 'model.dbt_aviation.aviation_model' was properly closed.
+[0m13:55:08.024548 [info ] [MainThread]: 
+[0m13:55:08.026067 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.61 seconds (4.61s).
+[0m13:55:08.026930 [debug] [MainThread]: Command end result
+[0m13:55:08.171098 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\manifest.json
+[0m13:55:08.174551 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\semantic_manifest.json
+[0m13:55:08.181871 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\NeilHanes\OneDrive - MERCURY XRM LTD\Desktop\Sandbox\SideProj\dbt_aviation\target\run_results.json
+[0m13:55:08.182873 [info ] [MainThread]: 
+[0m13:55:08.183723 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:55:08.183723 [info ] [MainThread]: 
+[0m13:55:08.184759 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:55:08.186178 [debug] [MainThread]: Command `dbt run` succeeded at 13:55:08.186178 after 8.24 seconds
+[0m13:55:08.186178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A3F655B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A3D044A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262A42E2B10>]}
+[0m13:55:08.187206 [debug] [MainThread]: Flushing usage events
+[0m13:55:09.016727 [debug] [MainThread]: An error was encountered while trying to flush usage events

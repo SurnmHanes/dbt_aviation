@@ -1,0 +1,1 @@
+select * from {{ source('aviation_data', 'RawData') }}

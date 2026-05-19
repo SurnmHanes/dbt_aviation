@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: aviation_data
+    dataset: aviation_data
+    tables:
+      - name: RawData
