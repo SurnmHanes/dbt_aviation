@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_aviation_model
+    description: staging model for aviation flights
+    columns:
+      - name: reporting_airport
+        description: the airport supplying the data
+        tests:
+          - not_null
+      - name: scheduled_or_chartered
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['S', 'C']
